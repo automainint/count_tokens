@@ -12,10 +12,11 @@ exit
 #include <stdio.h>
 #include <string.h>
 
-enum { BUF_SIZE = 4096, SPACE_LEN = 2 };
+enum { BUF_SIZE = 20000, SPACE_LEN = 2 };
 char const SPACE[] = "Ġ";
 static_assert(sizeof SPACE == SPACE_LEN + 1, "");
 
+char      buf[BUF_SIZE];
 ptrdiff_t quantity[VOCAB_SIZE];
 
 int token_eq(char const *text, char const *token) {
@@ -70,7 +71,6 @@ int main(int argc, char **argv) {
     return 1;
   }
 
-  char  buf[BUF_SIZE];
   char *text;
 
   char const *const data_file   = argv[1];

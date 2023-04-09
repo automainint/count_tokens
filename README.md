@@ -1,4 +1,4 @@
-#count\_tokens
+# count\_tokens
 Count tokens in The Pile [training data](https://the-eye.eu/public/AI/pile/train/).
 
 ##  Usage

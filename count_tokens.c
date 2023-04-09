@@ -12,7 +12,7 @@ exit
 #include <stdio.h>
 #include <string.h>
 
-enum { BUF_SIZE = 60000, SPACE_LEN = 2 };
+enum { BUF_SIZE = 200000, SPACE_LEN = 2 };
 char const SPACE[] = "Ġ";
 static_assert(sizeof SPACE == SPACE_LEN + 1, "");
 

@@ -18,4 +18,4 @@ Output `csv` file format:
 All zero-quantity tokens will be at the end.
 
 ##  Quink run
-On Linux, just execute `run.sh` script. It will do all the work automatically.
+On Linux, just execute `run.sh` script. It will do all the work automatically. ~30 GB of free space on disk required.

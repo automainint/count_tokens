@@ -6,6 +6,9 @@ exit
 //  training data in 00.jsonl / 29.jsonl
 //  30 files total
 
+//  FIXME
+//  Unicode characters processing is incorrect.
+
 #include "vocab.inl.h"
 #include <assert.h>
 #include <stddef.h>

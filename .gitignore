@@ -3,3 +3,4 @@ gen_vocab
 *.jsonl
 *.zst
 *.swp
+*.bin

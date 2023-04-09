@@ -134,12 +134,14 @@ int main(int argc, char **argv) {
     *end = '\0';
 
     printf("%% Line %lld...   \r", (long long) line);
+    fflush(stdout);
 
     for (ptrdiff_t token = 0; token < VOCAB_SIZE; token++)
       quantity[token] += count_substrings(text, VOCAB[token]);
   }
 
   printf("                  \r");
+  fflush(stdout);
 
   fclose(f);
 

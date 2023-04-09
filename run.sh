@@ -10,8 +10,10 @@ while [ "$i" -lt 30 ]; do
   wget "${url}"
   echo "$i Extract archive"
   unstzip "${file}.zst" "${file}"
+  rm "${file}.zst"
   echo "$i Process data..."
   ./count_tokens "${file}" temp.bin result.csv
+  rm "${file}"
   echo "$i Done"
   i=$((i + 1))
 done

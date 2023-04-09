@@ -1,4 +1,4 @@
-# count\_tokens
+#count\_tokens
 Count tokens in The Pile [training data](https://the-eye.eu/public/AI/pile/train/).
 
 ##  Usage
@@ -15,4 +15,4 @@ Output `csv` file format:
 All zero-quantity tokens will be at the end.
 
 ##  Quick run
-On Linux, just execute `run.sh` script. It will do all the work automatically. ~30 GB of free space on disk required.
+On Linux, just execute `run.sh` script. It will do all the work automatically. ~60 GB of free space on disk required.
